@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web");
+
+body {
+  background: url("../images/time-371226.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+#container,
+#containerError {
+  background-image: linear-gradient(
+    to top,
+    rgba(205, 156, 242, 0.4) 0%,
+    rgba(246, 255, 255, 0.71) 100%
+  );
+  box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 3em auto;
+  background: rgba(11, 10, 10, 0.95);
+  height: 400px;
+  width: 480px;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#containerError {
+  color: white;
+  width: auto;
+}
+
+#container h2 {
+  background: url("../images/time-371226.jpg");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Playfair Display", serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  letter-spacing: 2px;
+  font-size: 3.5em;
+  margin: 0;
+}
+
+#container p {
+  font-family: "Farsan", cursive;
+  margin: 3px 0 1.5em 0;
+  font-size: 1.3em;
+  color: #7d7d7d;
+}
+
+#container input {
+  background: rgba(0, 0, 333, 0.1);
+  width: 210px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 7px;
+  background: #eee;
+  padding: 1em 2em;
+  outline: none;
+  border: none;
+  color: #222;
+  transition: 0.3s linear;
+  display: block;
+  width: 83%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#container button {
+  background-image: linear-gradient(to left, #9e9e9e 0%, #607d8b 100%);
+  box-shadow: 0 9px 25px -5px #df91fb;
+  font-family: "Abel", sans-serif;
+  padding: 0.5em 1.9em;
+  margin: 2.3em 0 0 0;
+  border-radius: 7px;
+  font-size: 1.4em;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  transition: 0.3s linear;
+}
+#container button:hover {
+  transform: translatey(2px);
+}
+#container button:active {
+  transform: translatey(5px);
+}

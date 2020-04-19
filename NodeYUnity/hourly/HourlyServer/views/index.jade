@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  #container
+    h2= "Reloj"
+    p= "SaraCGC FULL STACK DEVELOPER"
+    input(id="timer", type="datetime", disabled=true, value=time)
+
+    form(action='/times/getTimeView', method='GET')  
+      button(class="bubbly-button", id="myButtonTime", type="submit") Hora Actual - Con Express
+    form(action='/times/getDayView', method='GET')
+      button(class="bubbly-button", id="myButtonDay", type="submit") Dia Actual - Sin Express
+  
+    script.
+      document.getElementById("timer").style.display = (document.getElementById("timer").value == "") ? "none" : "block" ;
+
